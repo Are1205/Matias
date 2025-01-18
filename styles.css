@@ -1,0 +1,514 @@
+/*General*/
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #186096;
+    height: 100%;
+    overflow: hidden; /* Evitar scroll */
+}
+
+#inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 5vw;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    z-index: 40;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0.5vw;
+    background: #77BAC9;
+    border-radius: 5px;
+}
+/*Barra de busqueda*/
+#search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #77BAC9; /* Fondo azul claro */
+    border-radius: 2vw; /* Bordes redondeados */
+    padding: 1vw; /* Espaciado interno */
+    width: 30%;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    z-index: 30;
+}
+
+/* Estilo del input */
+#search-input {
+    border: none; /* Sin bordes */
+    background-color: transparent; /* Fondo transparente */
+    font-size: 1.35vw; /* Tamaño de texto */
+    color: #fff; /* Color del texto */
+    outline: none; /* Sin borde al hacer clic */
+    font-family: 'Arial', sans-serif; /* Fuente */
+    caret-color: #fff; /* Cursor de texto blanco */
+    width: 90%;
+}
+
+/* Estilo del placeholder */
+#search-input::placeholder {
+    color: #fff; /* Color del texto de marcador */
+    font-weight: 500;
+    opacity: 0.8; /* Opacidad */
+}
+
+/* Estilo del icono */
+#search-bar .fa-magnifying-glass {
+    color: #fff;; /* Color blanco */
+    font-size: 1.8vw; /* Tamaño del icono */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el icono */
+}
+
+/* Title section styles */
+#titulo{
+    position: absolute;
+    top: 27%;
+    left: 32%;
+    z-index: 6; /* Layer position */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#invitacion{
+    position: absolute;
+    top: 17%;
+    z-index: 6; /* Layer position */
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width:100vw;
+}
+
+.borde{
+    text-shadow: -1px -1px 0 #186096, 1px -1px 0 #186096, -1px 1px 0 #186096, 1px 1px 0 #186096;
+}
+
+#nombre-invitado{
+    font-size: 6vw;
+}
+
+.sub-titulo {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 2.5vw; /* Responsive font size */
+    color: white; /* White text color */
+    font-family: 'Nunito'; /* Nunito font family */
+    font-weight: 300; /* Light font weight */
+    z-index: 6; /* Layer position */
+    opacity: 0; /* Initially invisible */
+    animation: aparecer 2s ease-in forwards; /* Fade-in animation */
+    text-align: center;
+    gap: 3vw;
+    padding: 2vw;
+}
+
+.titulo-principal{
+    font-size: 8vw; /* Larger font size for the main title */
+    color: white; /* White text color */
+    font-family: 'Ribeye'; /* Ribeye font family */
+    font-weight: 300; /* Regular font weight */
+    z-index: 6; /* Layer position */
+    opacity: 0; /* Initially invisible */
+    animation: aparecer 2.5s ease-in forwards; /* Delayed fade-in animation */
+}
+
+/*Tetero*/
+#tetero {
+    display: none;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+
+#tetero img {
+    z-index: 9;
+    width: 30vw;
+    display: none;
+}
+
+/*Estreallas*/
+#estrellas {
+    position: absolute; /* Posiciona estrellas relativas al contenedor */
+    width: 100%;
+    height: 50%; /* Ajusta según tu diseño */
+    z-index: 4;
+    top:5%;
+}
+
+.estrella {
+    position: absolute;
+    font-size: 3vw; /* Tamaño relativo al viewport */
+    color: #ffbd59;
+    opacity: 0; /* Comienza invisible */
+    animation: aparecer 2s ease-in forwards;
+}
+
+#e-1 {
+    top: 5%;
+    left: 3%;
+}
+
+#e-2 {
+    top: 2%;
+    left: 27%;
+}
+
+#e-3 {
+    top: 3%;
+    left: 45%;
+}
+
+#e-4 {
+    top: 5%;
+    left: 65%;
+}
+
+#e-5 {
+    top: 20%;
+    left: 15%;
+}
+
+#e-6 {
+    top: 25%;
+    left: 35%;
+}
+
+#e-7 {
+    top: 28%;
+    left: 56%;
+}
+
+#e-8 {
+    top: 22%;
+    left: 75%;
+}
+#e-9{
+    top: 50%;
+    left: 7%;
+}
+#e-10{
+    top: 12%;
+    left: 85%;
+}
+#e-11{
+    top: 55%;
+    left: 90%;
+}
+
+/*Nubes*/
+#nubes {
+    display: none;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    z-index: 30;
+    top: -30%;
+    z-index: 1;
+}
+
+#nubes img{
+    width: 100vw;
+}
+
+/*Motañas*/
+#montanias {
+    display: flex;
+    align-items: flex-end;
+    height: 75%;
+    width: 120%;
+    position: relative;
+    top: 20%;
+}
+
+.montania {
+    width: 0;
+    height: 0;
+    border-bottom: 0;
+    background: linear-gradient(to right, #FFFFFF, #77BAC9);
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+    position: relative;
+    height: 100%;
+    opacity: 0;
+    animation: subir 1.5s ease-out forwards;
+}
+
+#m-1 {
+    height: 100%;
+    width: 40%;
+    left:-2%;
+    z-index: 2;
+    animation-delay: 0.2s;
+}
+
+#m-2{
+    width: 25%;
+    height: 80%;
+    left: -10%;
+    z-index: 1;
+    animation-delay: 0.4s;
+}
+
+#m-3{
+    width: 35%;
+    height: 93%;
+    left: -15%;
+    z-index: 2;
+    animation-delay: 0.5s;
+}
+
+/* Contenedor de hielos */
+#hielos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    z-index:3;
+    width: 150%;
+    height: 35%;
+    top:4%;
+}
+
+/* Estilo de los hielos */
+.hielo {
+    width: 33%;
+    height: 100%;
+    background: linear-gradient(135deg, #FFFFFF, #77BAC9, #3FA7C7); /* Gradiente de colores */
+    border-radius: 50%; /* Hace que el div sea un óvalo */
+    position: relative;
+}
+
+#h-1{
+    animation-delay: 0.2s;
+    transform: rotate(14deg);
+    left: -3%;
+    top: 8%;
+}
+
+#h-2{
+    animation-delay: 0.4s;
+    left: -18%;
+    top: 16%;
+}
+
+#h-3{
+    animation-delay: 0.5s;
+    transform: rotate(-6deg);
+    left: -28%;
+    top: 13%;
+}
+
+/*Pinguinos*/
+#pinguino-der {
+    z-index:5;
+    position: absolute;
+    top: 60%;
+    left: 72%;
+    opacity: 0; /* Comienza invisible */
+    animation: subir 1.5s ease-out forwards;
+}
+
+#pinguino-der img{
+    z-index:7;
+    width: 22vw;
+    cursor: pointer;
+}
+
+#pinguino-izq {
+    z-index: 5;
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    opacity: 0; /* Comienza invisible */
+    animation: subir 1.5s ease-out forwards;
+}
+
+#pinguino-izq img{
+    z-index:7;
+    width: 22vw;
+    cursor: pointer;
+}
+
+.sombra {
+    position: absolute;
+    width: 12vw; /* Ajusta el tamaño de la sombra */
+    height: 3vw; /* Altura más pequeña para simular la perspectiva */
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 70%);
+    left:21%;
+    top: 86%;
+    z-index: 4; /* Coloca la sombra detrás del pingüino */
+    opacity: 0;
+    animation: aparecer 2s ease-in forwards;
+}
+
+.sombra-der {
+    position: absolute;
+    width: 12vw; /* Ajusta el tamaño de la sombra */
+    height: 3vw; /* Altura más pequeña para simular la perspectiva */
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 70%);
+    left:25%;
+    top: 86%;
+    z-index: 4; /* Coloca la sombra detrás del pingüino */
+    opacity: 0;
+    animation: aparecer 2s ease-in forwards;
+}
+
+/*Cueva*/
+#cueva {
+    display: none;
+    position: absolute;
+    z-index: 20;
+    top: 0%;
+}
+
+#cueva img {
+    width: 100vw;
+}
+
+/*Titulo regalos*/
+#titulo-regalos{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 15%;
+    z-index: 21;
+    text-align: center;
+    left: 10%;
+    background-color: #006D80;
+    border-radius: 10px;
+    width: 80vw;
+    height: 11vh;
+}
+
+#titulo-regalos span {
+    font-size: 3vw; /* Larger font size for the main title */
+    color: #b4e2ec;; /* White text color */
+    font-weight: bold; /* Regular font weight */
+    z-index: 6; /* Layer position */
+    opacity: 0; /* Initially invisible */
+    animation: aparecer 2.5s ease-in forwards; /* Delayed fade-in animation */
+}
+
+.sub-titulo-reg {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5vw; /* Responsive font size */
+    color: #b4e2ec;; /* White text color */
+    font-family: 'Nunito'; /* Nunito font family */
+    font-weight: 100; /* Light font weight */
+    z-index: 6; /* Layer position */
+    opacity: 0; /* Initially invisible */
+    animation: aparecer 2s ease-in forwards; /* Fade-in animation */
+    text-align: center;
+    gap: 3vw;
+}
+
+
+/* Animación al hacer hover */
+#pinguino-der img:hover,
+#pinguino-izq img:hover {
+    animation: saltar 0.3s ease-out forwards;
+}
+
+/* Transición para desaparecer */
+.desaparecer {
+    opacity: 0;
+    transform: translateY(100px); /* Baja el elemento */
+    transition: all 1s ease-out; /* Suaviza la transición */
+}
+
+.aparecer-arriba-class {
+    animation: aparecer-arriba 1.5s ease-in forwards;
+}
+
+/* Aplicar la animación de zoom */
+.elemento-zoom {
+    animation: zoomDesaparecer 2s ease-in-out forwards;
+}
+
+.aparecer{
+    animation: aparecer 1.5s ease-in forwards;
+
+}
+
+/* Animación */
+@keyframes subir {
+    0% {
+        transform: translateY(100px); /* Inicia desde abajo */
+        opacity: 0; /* Comienza invisible */
+    }
+    100% {
+        transform: translateY(0); /* Llega a su posición original */
+        opacity: 1; /* Se hace visible */
+    }
+}
+
+/* Animación de desvanecimiento */
+@keyframes aparecer {
+    0% {
+        opacity: 0; /* Completamente invisible */
+        transform: scale(0.8); /* Ligera escala inicial */
+    }
+    100% {
+        opacity: 1; /* Totalmente visible */
+        transform: scale(1); /* Vuelve al tamaño normal */
+    }
+}
+
+@keyframes aparecer-arriba {
+    0% {
+        transform: translateY(-30vh); /* Inicia desde la mitad de la pantalla */
+        opacity: 0; /* Comienza invisible */
+    }
+    100% {
+        transform: translateY(5vh); /* Llega a la parte inferior de la pantalla */
+        opacity: 1; /* Se hace visible */
+    }
+}
+
+/* Definición de la animación */
+@keyframes saltar {
+    0% {
+        transform: translateY(0); /* Posición inicial */
+        z-index: 7;
+    }
+    25% {
+        transform: translateY(-2vh); /* Salto hacia arriba */
+        z-index: 7;
+    }
+    50% {
+        transform: translateY(-4vh); /* Salto hacia arriba */
+        z-index: 7;
+    }
+    75% {
+        transform: translateY(-2vh); /* Salto hacia arriba */
+        z-index: 7;
+    }
+    100% {
+        transform: translateY(0); /* Vuelve a la posición inicial */
+        z-index: 7;
+    }
+}
+
+/*Zoom*/
+@keyframes zoomDesaparecer {
+    0% {
+        transform: scale(1); /* Tamaño inicial */
+        opacity: 1; /* Completamente visible */
+    }
+    100% {
+        transform: scale(2.5); /* Aumenta más el tamaño */
+        opacity: 0; /* Completamente invisible */
+    }
+}

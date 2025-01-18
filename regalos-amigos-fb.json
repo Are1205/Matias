@@ -1,0 +1,116 @@
+{
+    "1": {
+        "id": 1,
+        "producto": "Pañales Etapa 1",
+        "Marca": "Huggies",
+        "cantidad": 0
+    },
+    "2": {
+        "id": 2,
+        "producto": "Pañales Etapa 2",
+        "Marca": "Huggies",
+        "cantidad": 0
+    },
+    "3": {
+        "id": 3,
+        "producto": "Pañales Etapa 3",
+        "Marca": "Huggies",
+        "cantidad": 0
+    },
+    "4": {
+        "id": 4,
+        "producto": "Pañales Etapa 4",
+        "Marca": "Huggies",
+        "cantidad": 0
+    },
+    "5": {
+        "id": 5,
+        "producto": "Pañales Etapa 1",
+        "Marca": "Pampers",
+        "cantidad": 0
+    },
+    "6": {
+        "id": 6,
+        "producto": "Pañales Etapa 2",
+        "Marca": "Pampers",
+        "cantidad": 0
+    },
+    "7": {
+        "id": 7,
+        "producto": "Pañales Etapa 3",
+        "Marca": "Pampers",
+        "cantidad": 0
+    },
+    "8": {
+        "id": 8,
+        "producto": "Pañales Etapa 4",
+        "Marca": "Pampers",
+        "cantidad": 0
+    },
+    "9": {
+        "id": 9,
+        "producto": "Pañales Etapa 1",
+        "Marca": "Winny",
+        "cantidad": 0
+    },
+    "10": {
+        "id": 10,
+        "producto": "Pañales Etapa 2",
+        "Marca": "Winny",
+        "cantidad": 0
+    },
+    "11": {
+        "id": 11,
+        "producto": "Pañales Etapa 3",
+        "Marca": "Winny",
+        "cantidad": 0
+    },
+    "12": {
+        "id": 12,
+        "producto": "Pañales Etapa 4",
+        "Marca": "Winny",
+        "cantidad": 0
+    },
+    "13": {
+        "id": 13,
+        "producto": "Pañitos",
+        "Marca": "Huggies",
+        "cantidad": 0
+    },
+    "14": {
+        "id": 14,
+        "producto": "Pañitos",
+        "Marca": "Pampers",
+        "cantidad": 0
+    },
+    "15": {
+        "id": 15,
+        "producto": "Pañitos",
+        "Marca": "Mustela",
+        "cantidad": 0
+    },
+    "16": {
+        "id": 16,
+        "producto": "Pañitos",
+        "Marca": "Chicco",
+        "cantidad": 0
+    },
+    "17": {
+        "id": 17,
+        "producto": "Pañitos",
+        "Marca": "Naty By Nature",
+        "cantidad": 0
+    },
+    "18": {
+        "id": 18,
+        "producto": "Pañitos",
+        "Marca": "WaterWipes",
+        "cantidad": 0
+    },
+    "19": {
+        "id": 19,
+        "producto": "Pañitos",
+        "Marca": "Bebe Confort",
+        "cantidad": 0
+    }
+}

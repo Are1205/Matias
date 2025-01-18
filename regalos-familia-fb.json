@@ -1,0 +1,243 @@
+{
+    "1": {
+      "id": 1,
+      "producto": "termómetro",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "2": {
+      "id": 2,
+      "producto": "kit de aseo (corta uñas, lima, cepillo de pelo, cepillo de dientes, loción)",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "3": {
+      "id": 3,
+      "producto": "set limpieza (jabón, crema, shampoo)",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "4": {
+      "id": 4,
+      "producto": "cojín lactancia",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "5": {
+      "id": 5,
+      "producto": "aspirador nasal",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "6": {
+      "id": 6,
+      "producto": "pañalera",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "7": {
+      "id": 7,
+      "producto": "teteros avent",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "8": {
+      "id": 8,
+      "producto": "bolsas para almacenar leche",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "9": {
+      "id": 9,
+      "producto": "termo",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "10": {
+      "id": 10,
+      "producto": "cobijas",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "11": {
+      "id": 11,
+      "producto": "mantas",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "12": {
+      "id": 12,
+      "producto": "fular",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "13": {
+      "id": 13,
+      "producto": "calentador de pañitos",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "14": {
+      "id": 14,
+      "producto": "toalla de baño",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "15": {
+      "id": 15,
+      "producto": "toallitas de tela",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "16": {
+      "id": 16,
+      "producto": "sábanas",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "17": {
+      "id": 17,
+      "producto": "gimnasio",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "18": {
+      "id": 18,
+      "producto": "libros",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "19": {
+      "id": 19,
+      "producto": "juguetes didácticos",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "20": {
+      "id": 20,
+      "producto": "crema pañalitis",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "21": {
+      "id": 21,
+      "producto": "paquete caliente",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "22": {
+      "id": 22,
+      "producto": "sleeping",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "23": {
+      "id": 23,
+      "producto": "vajilla bebé",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "24": {
+      "id": 24,
+      "producto": "bodies",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "25": {
+      "id": 25,
+      "producto": "pantalones",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "26": {
+      "id": 26,
+      "producto": "camisas",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "27": {
+      "id": 27,
+      "producto": "camisetas",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "28": {
+      "id": 28,
+      "producto": "bermudas",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "29": {
+      "id": 29,
+      "producto": "camiseta para piscina",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "30": {
+      "id": 30,
+      "producto": "pantaloneta de piscina",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "31": {
+      "id": 31,
+      "producto": "camiseta tierra caliente",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "32": {
+      "id": 32,
+      "producto": "zapatos",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "33": {
+      "id": 33,
+      "producto": "chanclas/sandalias",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "34": {
+      "id": 34,
+      "producto": "chaquetas",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "35": {
+      "id": 35,
+      "producto": "sacos",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "36": {
+      "id": 36,
+      "producto": "hoodies",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "37": {
+      "id": 37,
+      "producto": "pijamas",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "38": {
+      "id": 38,
+      "producto": "medias",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "39": {
+      "id": 39,
+      "producto": "gorros",
+      "Marca": "A preferir",
+      "cantidad": 0
+    },
+    "40": {
+      "id": 40,
+      "producto": "baberos",
+      "Marca": "A preferir",
+      "cantidad": 0
+    }
+  }
+  

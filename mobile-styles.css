@@ -1,0 +1,207 @@
+/* General: Ajustes para móviles */
+@media screen and (max-width: 700px) {
+    #inicio{
+        top: 3%;
+        left: 40%;
+        font-size: 6vw;
+        height: 4vh;
+        width: 20vw;
+        padding: 1.2vw;
+    }
+    /* Barra de búsqueda */
+    #search-bar {
+        width: 80%; /* Más ancho en móviles */
+        top: 10%; /* Más cerca del borde superior */
+        left: 8%; /* Centrado horizontalmente */
+        padding: 10px;
+    }
+
+    #search-input {
+        font-size: 4vw; /* Tamaño ajustado del texto */
+    }
+
+    #search-bar .fa-magnifying-glass {
+        font-size: 7vw; /* Icono más grande */
+        padding-right: 10px; /* Espaciado a la derecha */
+    }
+
+    /* Títulos */
+    #titulo {
+        top:35%;
+        left:18%;
+    }
+
+    .sub-titulo {
+        font-size: 5vw; /* Texto más pequeño */
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .titulo-principal {
+        font-size: 12vw; /* Texto principal más grande */
+        font-weight: 600;
+        text-align: center;
+    }
+
+    /* Invitación */
+    #invitacion {
+        top: 19%; /* Baja el contenedor */
+        left: 0%; /* Centrado horizontalmente */
+        width: 100%;
+    }
+    #nombre-invitado{
+        font-size: 10vw;
+    }
+
+    /* Tetero */
+    #tetero {
+        top: 30%; /* Ajustar posición */
+        left: 20%;
+    }
+    #tetero img {
+        width: 60vw;
+    }
+
+    /* Estrellas */
+    #estrellas {
+        height: 40%; /* Ajustar altura */
+    }
+
+    .estrella {
+        font-size: 7vw; /* Tamaño más pequeño */
+    }
+
+    #e-1 {
+        top: 3%;
+        left: 3%;
+    }
+
+    #e-2 {
+        top: 8%;
+        left: 27%;
+    }
+
+    #e-3 {
+        top: 2%;
+        left: 45%;
+    }
+
+    #e-4 {
+        top: 10%;
+        left: 70%;
+    }
+
+    #e-5 {
+        top: 30%;
+        left: 20%;
+    }
+    #e-6 {
+        top: 40%;
+        left: 42%;
+    }
+
+    #e-7 {
+        top: 30%;
+        left: 65%;
+    }
+
+    #e-10{
+        top: 0%;
+        left: 85%;
+    }
+
+    #e-11{
+        top: 40%;
+        left: 90%;
+    }
+
+    /*Nubes*/
+    #nubes {
+        top:53%
+    }
+
+    /* Montañas */
+    #montanias {
+        height: 55%; /* Reducir altura */
+        width: 190%; /* Más anchas */
+        top: 35%; /* Ajustar posición */
+        left:-3%
+    }
+
+    /* Contenedor de hielos */
+    #hielos {
+        height: 40%; /* Reducir altura */
+        top: 25%; /* Ajustar posición */
+        width: 280%;
+        left:-15%
+    }
+
+    /* Pingüinos */
+    #pinguino-izq {
+        left:4%;
+        top: 75%; /* Subir los pingüinos */
+    }
+
+     #pinguino-izq img {
+        width: 40vw; /* Reducir tamaño */
+    }
+
+    .sombra {
+        left:20%;
+        width: 23vw;
+        top: 90%; /* Ajustar posición */
+    }
+
+    #pinguino-der {
+        left: 60%;
+        top: 78%; /* Subir los pingüinos */
+    }
+
+    #pinguino-der img {
+        width: 40vw; /* Reducir tamaño */
+    }
+
+    .sombra-der{
+        left:23%;
+        width: 23vw;
+        top: 90%; /* Ajustar posición */
+    }
+
+    /* Cuevas */
+    #cueva{
+        left: -100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #cueva img{
+        top:-10%;
+        width: 250vw;
+    }
+
+    /*Titulo regalos*/
+    #titulo-regalos{
+        top: 18.7%;
+        left: 5%;
+        height: 8vh;
+        width: 90vw;
+        background-color: #006d80;
+    }
+
+    #titulo-regalos span {
+        color: #b4e2ec;
+        position:absolute;
+        top:20%;
+        font-size: 7vw;
+    }
+
+    .sub-titulo-reg {
+        display: none;
+        font-size: 3.5vw;
+    }
+
+
+    html, body {
+        top:0%;
+        overflow: hidden; /* Evitar scroll */
+    }
+}
