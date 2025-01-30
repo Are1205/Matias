@@ -130,5 +130,6 @@
     { "nombre": "Mongui", "fechas": [2], "grupo": "Amigos" },
     { "nombre": "Helena", "fechas": [2], "grupo": "Amigos" },
     { "nombre": "Laura Segura", "fechas": [2], "grupo": "Amigos" },
-    { "nombre": "Susana", "fechas": [2], "grupo": "Amigos" }
+    { "nombre": "Susana", "fechas": [2], "grupo": "Amigos" },
+    {"nombre":"Sarah", "fechas":[2],"grupo":"Amigos"}
 ]
