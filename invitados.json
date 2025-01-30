@@ -114,7 +114,7 @@
     { "nombre": "Mauren", "fechas": [2], "grupo": "Amigos" },
     { "nombre": "Lu Neira", "fechas": [2], "grupo": "Amigos" },
     { "nombre": "Caro", "fechas": [2], "grupo": "Amigos" },
-    { "nombre": "Salomé", "fechas": [2], "grupo": "Amigos" },
+    { "nombre": "Salomé", "fechas": [25,2], "grupo": "Amigos" },
     { "nombre": "Nats Paez", "fechas": [2], "grupo": "Amigos" },
     { "nombre": "Mariana Villada", "fechas": [2], "grupo": "Amigos" },
     { "nombre": "La mona", "fechas": [2], "grupo": "Amigos" },
@@ -131,5 +131,5 @@
     { "nombre": "Helena", "fechas": [2], "grupo": "Amigos" },
     { "nombre": "Laura Segura", "fechas": [2], "grupo": "Amigos" },
     { "nombre": "Susana", "fechas": [2], "grupo": "Amigos" },
-    {"nombre":"Sarah", "fechas":[2],"grupo":"Amigos"}
+    {"nombre":"Sarah", "fechas":[25],"grupo":"Amigos"}
 ]
