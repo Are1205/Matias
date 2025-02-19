@@ -3,7 +3,7 @@ const date_25 = "1 de febrero de 2025 <br> 3:00 pm <br> Prados De La Calleja";
 const lugar_25 = "https://www.google.com/maps/place/Prados+de+la+Calleja/@4.7112811,-74.0521992,812m/data=!3m2!1e3!4b1!4m6!3m5!1s0x8e3f851835852847:0xfbcdd12196271aff!8m2!3d4.7112758!4d-74.0496243!16s%2Fg%2F11jgjhkz3l?hl=es&entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D";
 const date_2 = "2 de febrero de 2025 <br> 2:00 pm <br> Conjunto Plaza Real Salitre ";
 const lugar_2 = "https://www.google.com/maps/place/Conjunto+Residencial+Plaza+Real+Salitre/@4.6549293,-74.1095146,812m/data=!3m2!1e3!4b1!4m6!3m5!1s0x8e3f9b91286f5663:0xa2336b9d7a550572!8m2!3d4.654924!4d-74.1069397!16s%2Fg%2F11c4y3m2f3?hl=es&entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D";
-const date_23 = "Por confirmar <br> Hora por confirmar <br> Hotel Palma Verde";
+const date_23 = "1 de marzo de 2025 <br> 2:00 pm <br> Hotel Palma Verde";
 const lugar_23="https://www.google.com/maps/place/Hotel+Campestre+Palma+Verde/@4.1850865,-73.5863714,813m/data=!3m1!1e3!4m9!3m8!1s0x8e3e2d569380b169:0xb1968bcf54fc75a5!5m2!4m1!1i2!8m2!3d4.1850812!4d-73.5837965!16s%2Fg%2F11rj5l2ldj?hl=es&entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
 let invitados = [];
 let productos = [];
@@ -331,7 +331,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-    pinguinoDer.addEventListener("click", () => {
+    /* pinguinoDer.addEventListener("click", () => {
         const nombre = document.getElementById("search-input").value;
         if(nombre !== ''){
             sel_ping_der = true;
@@ -359,5 +359,5 @@ document.addEventListener("DOMContentLoaded", () => {
         }else{
             alert("Ingresa un nombre de invitado");
         }
-    });
+    }); */
 });

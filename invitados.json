@@ -131,5 +131,15 @@
     { "nombre": "Helena", "fechas": [2], "grupo": "Amigos" },
     { "nombre": "Laura Segura", "fechas": [2], "grupo": "Amigos" },
     { "nombre": "Susana", "fechas": [2], "grupo": "Amigos" },
-    {"nombre":"Sarah", "fechas":[25],"grupo":"Amigos"}
+    {"nombre":"Sarah", "fechas":[25],"grupo":"Amigos"},
+    {"nombre": "Carolina Villa y Esposo", "fechas": [23], "grupo": "Invitados"},
+    {"nombre": "Claudia Oramas y Esposo", "fechas": [23], "grupo": "Invitados"},
+    {"nombre": "Mirna Lara y Esposo", "fechas": [23], "grupo": "Invitados"},
+    {"nombre": "Carolina Carmona y Esposo", "fechas": [23], "grupo": "Invitados"},
+    {"nombre": "Rosalba Peña y Esposo", "fechas": [23], "grupo": "Invitados"},
+    {"nombre": "Katya Mejia", "fechas": [23], "grupo": "Invitados"},
+    {"nombre": "Angelica Uribe y Esposo", "fechas": [23], "grupo": "Invitados"},
+    {"nombre": "Angelly Arenas y Esposo", "fechas": [23], "grupo": "Invitados"},
+    {"nombre": "Amparo Sandoval", "fechas": [23], "grupo": "Invitados"}
+
 ]
